@@ -1,4 +1,15 @@
-const readline = require("readline");
+
+import pairSum from './src/array_pair.js';
+ 
+import readline from 'readline';
+
+const array = [2,5,3,1,4,6];
+const target = 7;
+
+
+console.log(pairSum(array, target));
+
+//const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
